@@ -1,0 +1,41 @@
+.sideBarWrapper {
+    width: 230px;
+    background-color: #347ab4;
+    height: 100vh;
+}
+
+.containerLogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.listMenu {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none
+}
+
+.link-active{
+    color: white!important;
+}
+
+.link{
+    color: black;
+}
+
+.wrapperContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: calc(100% - 230px);
+    height: 100vh;
+    overflow: hidden;
+}
